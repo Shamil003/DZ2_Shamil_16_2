@@ -1,18 +1,20 @@
-let i= "*";//1
-while (i. length<7) {
-    console.log(i+= "*")
-}
+function two(number1, number2) {
+    if(number1 > number2 ) {
+        console.log ("number2 меньше") 
+    } else if(number1 < number2) {
+        console.log ("number1 меньше") 
+    } else {
+        console.log("равны")
+    }
+ }
+ const number1 = prompt ("число1?")
+const number2 = prompt ("Чисо2?")
+two (number1, number2)
 
-  const list = [];//2
-for (let i = 1; i <= 100; i++) {
-if (i % 15 === 0) {
-list.push("FizzBuzz");
-} else if (i % 3 === 0) {
-list.push("Fizz");
-} else if (i % 5 === 0) {
-list.push("Buzz");
-} else {
-list.push(i);
+
+//2 
+function argument(num) {
+    console.log(num.length)
 }
-}
-console.log(list);
+const num = "test"
+argument(num)
